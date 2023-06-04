@@ -1,0 +1,102 @@
+<html>
+    <head>
+        <title>GYM_FITNESS_GYM</title>
+        <style>
+            body{
+                background: url('image/gym\ pics\ \(1\).jpg') center center/cover;
+                color:yellow;
+            }
+         .logo{
+                position: absolute;
+                margin: 0;
+                padding: 0;
+                border:2px solid yellowgreen;
+                display:inline-block;
+                
+              }
+        
+         div img{
+                  width: 60px;
+               }
+         .navbar{
+               color:red;
+               display :block; 
+               width:33%;
+               margin:22px auto;
+               padding:2px 5px;
+               border: 2px solid yellowgreen;
+               text-align: center;
+               height: 25;
+               border-radius: 15px;
+         }
+         a{
+           color: aqua;
+           padding:1px;
+           margin: 5px 6px;
+           text-decoration:none;
+
+         }
+         .navbar a:hover{
+              text-decoration: underline;
+              color: blueviolet;
+         }
+         .search{
+            position :absolute;
+            display: inline-block;
+            right :1px;
+            border:2px solid yellow;
+            height: 22px;
+            border-radius: 15px;
+            top: 12px;
+            width: 175px;
+            padding-left: 7px;
+         }
+         .container{
+            border:2px solid green;
+            display: inline-block;
+            width: 20%;
+            padding:0px 45px;
+            margin: 51px 34px;
+            border-radius: 8px;
+         }
+         .form-group input{
+            padding: 6px 5px;
+            color:rgb(4, 8, 4)
+
+         }
+        </style>
+    </head>
+    <body>
+        <header>
+        
+           <div class="logo"><img src="image/jim.jpg"></div>
+           <nav class="navbar">
+            <a href="#">About Us</a>
+            <a href="#">Fitness Calculator</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Rating</a>
+           </nav>
+           <div class="search"><input type="search" placeholder="search bar"></div>
+        </header>
+        <div class="container">
+          <h3>Join the Best GYm of KEC</h3>
+            <form action="noaction.php">
+               <div class="form-group">
+                  <input type="text"placeholder="Enter your name">
+               </div>
+               <div class="form-group">
+                  <input type="number"placeholder="Enter your contact detail">
+               </div>
+               <div class="form-group">
+                  <input type="text"placeholder="Enter your address">
+               </div>
+               <div class="form-group">
+                  Morning<input type="radio" name="time" >
+                  Evening<input type="radio" name="time" >
+                  Both<input type="radio" name="time">
+                  <input type="submit" >
+               </div>
+          </form>
+        </div>
+    </body>
+</html>
